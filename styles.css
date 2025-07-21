@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+/* test */
+body {
+	font-family: "Victor Mono", monospace;
+	background-color: #12161a;
+	color: white;
+}
+
+main, header {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+main {
+	padding-top: 0;
+}
+
+nav ul {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+	font-weight: 700;
+}
+
+nav ul li:not(:last-child) {
+	border-right: 1px solid whitesmoke;
+	padding-right: 1rem;
+}
+
+a {
+	color: #66cc66;
+	/* text-decoration: none; */
+}
+
+a:hover {
+	color: #cc66cc;
+}
+
+header a {
+	text-decoration: none;
+}
+
+p {
+	margin: 1rem 0;
+}
+
+.highlight {
+	color: #cc66cc;
+}
+
+.green {
+	color: #66cc66;
+}
+
+article {
+	margin-top: 1.5rem;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+h4 {
+	font-size: 0.75rem;
+	color: #66cc66;
+}
+
+img {
+	max-width: 100%;
+	margin-top: 0.5rem;
+}
+
+#contact ul {
+	list-style-position: inside;
+	margin-left: 1.5rem;
+}
+
+address {
+	font-style: normal;
+}
