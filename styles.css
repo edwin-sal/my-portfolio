@@ -29,6 +29,11 @@ nav ul {
 	font-weight: 700;
 }
 
+nav ul li:nth-child(4) {
+	margin-right: -1rem;
+	/* cancels the gap before it */
+}
+
 nav ul li:not(:last-child) {
 	border-right: 1px solid whitesmoke;
 	padding-right: 1rem;
@@ -84,4 +89,46 @@ img {
 
 address {
 	font-style: normal;
+}
+
+#gospel-nav {
+	border-left: 1px solid whitesmoke;
+	padding-left: 1rem;
+}
+
+details {
+	margin-top: 4px;
+}
+
+/* .word-container {
+	display: flex;
+} */
+
+.interpreted-message {
+	cursor: pointer;
+}
+
+.interpreted-message,
+.word-of-god {
+	user-select: none;
+}
+
+.word-container img {
+	width: 50%;
+	object-fit: contain;
+	height: auto;
+	float: left;
+	margin: 0 1.2rem 0 0;
+}
+
+.word-container p {
+	display: inline;
+}
+
+.word-of-god {
+	text-align: justify;
+	color: #f9e2af;
+	font-size: 0.8em;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
 }
