@@ -99,36 +99,3 @@ address {
 details {
 	margin-top: 4px;
 }
-
-/* .word-container {
-	display: flex;
-} */
-
-.interpreted-message {
-	cursor: pointer;
-}
-
-.interpreted-message,
-.word-of-god {
-	user-select: none;
-}
-
-.word-container img {
-	width: 50%;
-	object-fit: contain;
-	height: auto;
-	float: left;
-	margin: 0 1.2rem 0 0;
-}
-
-.word-container p {
-	display: inline;
-}
-
-.word-of-god {
-	text-align: justify;
-	color: #f9e2af;
-	font-size: 0.8em;
-	font-style: italic;
-	font-family: 'Courier New', Courier, monospace;
-}
